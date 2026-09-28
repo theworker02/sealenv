@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/sealenv",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Seal structured JSON env payloads without a heavyweight toolkit.",
+  "bin": {
+    "sealenv": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/sealenv.git"
+  },
+  "homepage": "https://theworker02.github.io/sealenv/",
+  "keywords": [
+    "seal",
+    "env",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
